@@ -86,8 +86,8 @@ public class Action {
 	
 		/*请求登录*/
 		String loginUrl = Constant.baseUrl + "login/loginAysnSuggest";
-		String username = "jieaobuqun";
-		String password = "tian7124";
+		String username = "";
+		String password = "";
 		String randCode = bean.getRandCode();
 		System.out.println(randCode);
 		
